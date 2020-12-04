@@ -1,0 +1,164 @@
+textarea.textbox{
+    font-size: 19px;
+    width: 65%;
+    height: 23%;
+    border-radius: 20px;
+    border-style: none;
+    offset-position: 100px;
+    resize: none;
+    padding: 18px 16px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    size: inherit;
+}
+
+h1.top_bar{
+    font-size: 45px;
+}
+
+button.new_note{
+    background-color: rgb(17, 160, 17); 
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+#dark_theme{
+    background-color: rgb(54, 58, 54); 
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+button.save{
+    background-color: rgb(17, 160, 17); 
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    justify-content: center;
+    display: inline-flex;
+    float: inline-start;
+    position: relative;
+    margin-top: 29%;
+    margin-left: 30%;
+    float: left;
+}
+
+button.cancel{
+    background-color: rgb(182, 68, 68); 
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    justify-content: center;
+    display:inline-flex;
+    margin-top: 29%;
+    margin-right: 30%;
+    position: relative;
+    float: inline-start;
+    float: right;
+}
+
+header{
+    background-color: rgb(117, 99, 93);
+    grid-column: 1/-1;
+    justify-content: center;
+    display: flex;
+    height: 15vh;
+}
+
+main{
+    background-color: rgb(196, 195, 195);
+    grid-column: 2/2;
+    grid-row: 2/3;
+    height: 58vh;
+    
+}
+
+h2.note_bar{
+    font-size: 45px;
+}
+
+h2.footer_bar{
+    font-size: 32px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: -4px;
+}
+
+nav.notes{
+    background-color: rgb(134, 134, 134);
+    grid-column: 1/1;
+    grid-row: 2/3;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: rgb(204, 172, 177);
+    grid-column: 1/-1;
+    display: inline;
+    justify-content: center;
+    height: 19vh;
+}
+
+body{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    grid-gap: 2.5vh;
+    margin: 1.5vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.list {
+    font-size: 25px;
+    list-style-type: square;
+}
+
+.list2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.theme1{
+    background-color: black;
+}
+
+.theme2{
+    background-color: rgb(54, 58, 54);
+}
+
+.theme3{
+    background-color: white;
+    color: black; 
+}
+
+.changetext{
+    color: white;
+}
