@@ -5,7 +5,7 @@
         <title> Notes </title>
         <link rel="stylesheet" href="css/stylesheet.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <script defer src="../js/script.js"></script>
+        <script defer src="js/script.js"></script>
 </head>
 <body class="flex-container">
         <header class="header">
@@ -13,17 +13,17 @@
         </header>
         <main class="main" id="change2">
                 <section>
-                        <button class="new_note" type="button" onclick="alert('New Note')">New Note</button>
-                        <button id="dark_theme"  type="button">Dark Theme</button>
-                        <textarea rows="3" class="textbox" placeholder="This is a placeholder"></textarea>
-                        <button class="save" type="button" onclick="alert('Save')">Save</button>
-                        <button class="cancel" type="button" onclick="alert('Cancel')">Cancel</button>
+                        <button class="new_note buttonstyle" id="new_note" type="button">New Note</button>
+                        <button class="dark_theme buttonstyle" id="dark_theme"  type="button">Dark Theme</button>
+                        <textarea rows="3" id="textarea" class="textbox hide" placeholder="This is a placeholder"></textarea>
+                        <button class="save buttonstyle" id="save" type="button">Save</button>
+                        <button class="cancel buttonstyle" id="cancel" type="button">Cancel</button>
                 </section>
         </main>
         <nav class="notes" id="change1">
                 <h2 class="note_bar" id="change4">My Notes</h2>
-                <ul class="list">
-                        <li id="change4">note one</li><li id="change4">note two</li>
+                <ul class="list changetext" id="change linote">
+                        <li><a title="some text 1">note one</a></li><li id="append"><a title="some text 2">note two</a></li>
                 </ul>
         </nav>
         <footer class="footer">
